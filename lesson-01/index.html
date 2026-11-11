@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Desk — Lesson 1</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="https://google.com" target="_blank">GOOGLE</a>
+        <div class="container">
+            <p class="brand">Travel Desk</p>
+            <nav aria-label="Main navigation">
+                <a href="#test123">Goto Bottom</a>
+                <a href="#featured-trip">Featured trip</a>
+                <a href="#request">Request form</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Plan your next business trip</h1>
+        <p>Explore a sample trip and try a demonstration form.</p>
+
+        <section id="featured-trip" aria-labelledby="trip-heading">
+            <h2 id="trip-heading">Featured trip</h2>
+            <article class="card">
+                <h3>Lisbon team workshop</h3>
+                <p>Destination: Lisbon, Portugal</p>
+                <p>Duration: 3 days</p>
+                <p class="trip-status">Status: Open for planning</p>
+            </article>
+        </section>
+
+        <section id="request" aria-labelledby="request-heading">
+            <h2 id="request-heading">Request information</h2>
+            <form action="#" method="get" class="card request-form">
+                <div class="field">
+                    <label for="traveler-name">Traveler name</label>
+                    <input id="traveler-name" name="travelerName" type="text" autocomplete="name" required />
+                </div>
+
+                <div class="field">
+                    <label for="destination">Destination</label>
+                    <select id="destination" name="destination" required>
+                        <option value="">Choose a destination</option>
+                        <option value="lisbon">Lisbon</option>
+                        <option value="porto">Porto</option>
+                        <option value="coimbra">Coimbra</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="departure-date">Departure date</label>
+                    <input id="departure-date" name="departureDate" type="date" required />
+                </div>
+
+                <button type="submit">Submit demo form</button>
+                <p class="form-note">Demonstration only — no request is saved.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="container">
+        <p>Travel Desk · Web Development Foundations</p>
+    </footer>
+
+
+
+    <p id="test123">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium dignissimos fuga modi beatae
+        corrupti
+        pariatur eum doloribus at velit. Porro illo adipisci reiciendis, eligendi nihil at blanditiis consequuntur
+        exercitationem iusto.</p>
+</body>
+
+</html>

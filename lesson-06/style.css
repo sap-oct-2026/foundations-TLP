@@ -1,0 +1,20 @@
+body {
+    background-color: aquamarine;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}
+
+#button1 {
+    background-color: pink;
+}
+
+#imageBox {
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+    background-color: pink;
+}

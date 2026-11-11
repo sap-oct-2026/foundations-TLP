@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #243247;
+  background: #f5f7fa;
+}
+
+.container {
+  width: min(100% - 2rem, 900px);
+  margin-inline: auto;
+}
+
+.site-header {
+  background: #17365d;
+  color: white;
+  padding: 1rem 0;
+}
+
+.site-header   a {
+  color: white;
+  margin-right: 1rem;
+}
+
+main   >  section {
+  margin-block: 2rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #d5dce5;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+input,
+select,
+button {
+  font: inherit;
+  padding: 0.6rem;
+}
+
+input,
+select {
+  width: 100%;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 3px solid #d48a00;
+  outline-offset: 2px;
+}
+
+footer {
+  padding-block: 1rem;
+}

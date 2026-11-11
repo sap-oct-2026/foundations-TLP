@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+}
+
+.table1 {
+    border: solid 1px black;
+    width: 400px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table1 td {
+    border: solid 1px blue;
+    padding: 10px;
+}
+
+.table1 tr:nth-child(odd) {
+    background-color: pink;
+}
