@@ -1,0 +1,36 @@
+{
+  "description": "Student Info",
+  "count": 5,
+  "info": [
+    {
+      "name": "Maxine",
+      "classes": ["SAP Fiori", "JS", "WEB Dev"],
+      "enrollmentDate": "2026-09-01",
+      "isTutor": true
+    },
+    {
+      "name": "Joe",
+      "classes": ["SAP Fiori"],
+      "enrollmentDate": "2026-09-01",
+      "isTutor": true
+    },
+    {
+      "name": "Bob",
+      "classes": ["Math", "History"],
+      "enrollmentDate": "2026-09-01",
+      "isTutor": false
+    },
+    {
+      "name": "Jane",
+      "classes": ["Math", "History", "German"],
+      "enrollmentDate": "2026-09-01",
+      "isTutor": false
+    },
+    {
+      "name": "Paul",
+      "classes": ["Math", "History", "German"],
+      "enrollmentDate": "2026-09-01",
+      "isTutor": false
+    }
+  ]
+}
